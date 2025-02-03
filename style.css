@@ -76,4 +76,36 @@
 
 /* Special area*/
 
+.special-area .container-fluid, .image-area .container-fluid{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.special-item, .single-image-item{
+    float: left;
+    width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.item-content{
+    position: relative;
+}
+.item-content img, .single-imagem-item img{
+    max-width: 100%;
+}
+
+.item-hover{
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    bottom: 10px;
+    height: auto;
+    left: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0,4s ease 0s;
+    width: auto;
+}
 
